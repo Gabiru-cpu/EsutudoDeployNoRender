@@ -1,13 +1,13 @@
-package helloWordDcoker.comm;
+package br.com.danieleleaoe.deploy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class DeployRender {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(DeployRender.class, args);
 	}
 
 }
